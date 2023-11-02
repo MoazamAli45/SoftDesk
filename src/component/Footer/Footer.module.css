@@ -1,0 +1,88 @@
+.Footer{
+    height: 100%;
+    background-color: #333;
+}
+.container{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.logo{
+    height: 20.5rem;
+    width: 20.5rem;
+}
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.seperator{
+content: "";
+width: 80%;
+margin-top: 2rem;
+height: 2px;
+background-color: #888;
+display: flex;
+align-items: center;
+}
+.upper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.Social-icons{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.info-sec{
+    margin-right: 20px;
+}
+.phone{
+    display: flex;
+    align-items: center;
+}
+.location{
+    margin-bottom: 1.5rem;
+    display: flex;
+    
+    justify-content: space-between;
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+.icon{
+    transition: all .2s;
+    font-size: 3.5rem !important;
+}
+.icon:hover{
+    color: #ff671b;
+}
+.para{
+    color: #c5c4c4;
+    font-size: 1.5rem;
+}
+.copyrights{
+    padding-top: 3rem;
+    color: #888;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.6rem;
+}
+@media (max-width: 700px){
+    .upper{
+        flex-direction: column;
+    }
+}
+@media (max-width: 400px){
+    .upper{
+        padding-left: 10px;
+    }
+}

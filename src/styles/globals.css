@@ -2,26 +2,297 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* =====> fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@100;200;300;400;500;600;700;800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=PT+Sans+Narrow:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+/* ====> image gallery css */
+@import "~react-image-gallery/styles/css/image-gallery.css";
+/*  */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #101014;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@media only screen and (max-width: 880px) {
+  /* //900px */
+  html {
+    font-size: 50%;
+  }
+}
+@media only screen and (max-width: 580px) {
+  /* //900px */
+  html {
+    font-size: 46%;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@media only screen and(max-width:1200px) {
+  /* //1200px */
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media only screen and (min-width: 112.5em) {
+  /* //1800px */
+  html {
+    font-size: 75%;
+  }
+}
+
+/* ====> width of scroll bar zero */
+.scrollBar::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+/* =======> drawer style */
+.drawer {
+  width: 50% !important;
+  background-color: #101014 !important;
+}
+@media screen and (max-width: 700px) {
+  .drawer {
+    width: 70% !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .drawer {
+    width: 100% !important;
+  }
+}
+
+/* =====> swiper styling */
+
+.slick-dots li ::before {
+  font-size: 12px !important;
+  color: #cf6732 !important;
+}
+.slick-dots li.slick-active button:before {
+  color: #cf6732 !important;
+  opacity: 1 !important;
+}
+.slick-dots li:hover button:before {
+  color: #cf6732 !important;
+  opacity: 9 !important;
+}
+/* =====> overly on gallery image */
+.imgDiv:hover .addIcon {
+  opacity: 1;
+}
+/* =====> styles for image gallery */
+
+.image-gallery-thumbnails {
+  overflow: auto !important;
+  scrollbar-width: 0px !important;
+}
+.MuiPaper-root {
+  background-color: black !important;
+}
+.image-gallery-thumbnail-image {
+  height: 60px !important;
+  object-fit: cover;
+}
+.image-gallery-left-nav {
+  width: 70px !important;
+  height: 70px !important;
+  top: 45% !important;
+}
+.image-gallery-left-nav svg {
+  width: 70px !important;
+  height: 70px !important;
+}
+.image-gallery-left-nav:hover svg {
+  color: #cf6732 !important;
+}
+.image-gallery-right-nav:hover svg {
+  color: #cf6732 !important;
+}
+.image-gallery-fullscreen-button:hover svg {
+  color: #cf6732 !important;
+}
+.image-gallery-play-button:hover svg {
+  color: #cf6732 !important;
+}
+.image-gallery-thumbnail.active {
+  border-color: #cf6732 !important;
+}
+.image-gallery-thumbnail:hover {
+  border-color: #cf6732 !important;
+}
+.image-gallery-right-nav {
+  width: 70px !important;
+  height: 70px !important;
+  top: 45% !important;
+}
+.image-gallery-right-nav svg {
+  width: 70px !important;
+  height: 70px !important;
+}
+/* ====> animations on back button */
+.backForAnimation {
+  animation: BackForAnimation 1.8s infinite;
+}
+/* Linear gredients */
+.cabinetGredient {
+  background-image: radial-gradient(
+    circle at 46.49% 50.31%,
+    #ffbc75 0,
+    #ffae6c 16.67%,
+    #fc9d60 33.33%,
+    #f28953 50%,
+    #e77547 66.67%,
+    #df6340 83.33%,
+    #d9533d 100%
+  );
+}
+.aboutGredient {
+  background-color: #cf6732;
+  opacity: 7;
+  filter: blur(127px);
+}
+/* =====> video player styles */
+
+/* ====> clippaths */
+.clipPath {
+  clip-path: polygon(0% 0%, 100% 0, 100% 76%, 50% 100%, 0 79%);
+}
+@keyframes BackForAnimation {
+  0% {
+    transform: translateX(-10px);
+  }
+  50% {
+    transform: translateX(+10px);
+  }
+  100% {
+    transform: translateX(-10px);
+  }
+}
+
+/* ======> media querry */
+@media screen and (max-width: 600px) {
+  .backForAnimation {
+    animation: BackForAnimation 1.8s infinite;
+  }
+  @keyframes BackForAnimation {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(+5px);
+    }
+    100% {
+      transform: translateX(-5px);
+    }
+  }
+}
+
+/* Header.css */
+
+/* Container styles */
+.header-container {
+  width: 100%;
+  height: 90px;
+}
+
+/* Max width and centering */
+.header-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4px;
+  /* lg:px-[10px] */
+}
+
+/* Logo styles */
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  /* color: #your-brand-main-color; */
+  font-weight: bold;
+}
+
+.logo-link {
+  width: 100px;
+  height: 70px;
+  position: relative;
+}
+
+/* Navigation links styles */
+.nav-links {
+  display: none; /* Initially hidden on smaller screens */
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+
+.nav-link {
+  font-size: 18px;
+  color: #f59837;
+  font-weight: normal;
+  font-family: "poppins", sans-serif;
+}
+
+/* CustomButton styles */
+.custom-button {
+  /* Your CustomButton styles here */
+}
+
+/* Hamburger and Drawer styles */
+.hamburger-icon {
+  color: #ffffff;
+}
+
+.drawer {
+  /* Your Drawer styles here */
+}
+
+/* Top bar styles */
+.top-bar {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* Section links styles */
+.section-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.section-link {
+  font-family: "poppins", sans-serif;
+  font-size: 34px;
+  color: #ffffff;
+}
+
+/* Social links styles */
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.social-link {
+  font-size: 50px;
+  color: #ffffff;
 }

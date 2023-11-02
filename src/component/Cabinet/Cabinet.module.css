@@ -1,0 +1,209 @@
+.cabinet{
+    background-color: #fff;
+    padding-top: 2rem;
+}
+
+@media (min-width: 1400px){
+    .content{
+        max-width: 1320px;
+    }
+}
+@media (min-width: 1200px){
+    .content{
+        max-width: 1140px;
+    }
+}
+@media (min-width: 992px){
+    .content{
+        max-width: 960px;
+    }
+}
+@media (min-width: 768px){
+    .content{
+        max-width: 720px;
+    }
+}
+@media (min-width: 576px){
+    .content{
+        max-width: 540px;
+    }
+}
+.content{
+    max-width: 1200px ;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.row,.row1{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y)*-1);
+    margin-right: calc(var(--bs-gutter-x)*-.5);
+    margin-left: calc(var(--bs-gutter-x)*-.5);
+    
+}
+/* .row1{
+    justify-content: space-between;
+} */
+.row>* {
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x)*.5);
+    padding-left: calc(var(--bs-gutter-x)*.5);
+    margin-top: var(--bs-gutter-y);
+    box-sizing: border-box;
+}
+.col-5{
+    flex: 0 0 auto;
+    width: 50%;
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+        /* width: 200px;
+        height: 200px;
+        font-size: 30px;
+        color: #fff;
+        border-radius: 50%;
+        overflow: hidden;
+        position: relative;
+        background: #07070c;
+        text-align: center;
+        line-height: 200px;
+        margin: 20px; */
+    
+}
+
+
+@media (min-width: 576px){
+    .col-5{
+        margin-bottom: 4rem!important;
+    }
+}
+@media (max-width: 576px){
+    .col-5{
+        margin-bottom: 4rem!important;
+        width: 100%;
+    }
+}
+@media (min-width: 768px){
+    .col-5{
+        flex: 0 0 auto;
+    width: 33.33%;
+    }
+}
+.col-12{
+    flex: 0 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.headshot{
+    height: 100%;
+    width: 100%;
+    /* background-color: #CF6732; */
+    /* background-color: transparent; */
+    transform: scale(1.43) translateY(4.19rem);
+    transition: all .2s;
+    overflow: hidden;
+    object-fit: contain;
+}
+.headshot-n{
+    height: 100%;
+    width: 100%;
+
+    transform: scale(1.43) translateY(0.277rem);
+    transition: all .2s;
+    overflow: hidden;
+    object-fit: contain;
+}
+.headshot-m{
+    height: 100%;
+    width: 100%;
+    /* background-color: #CF6732;  */
+    /* background-color: transparent; */
+    transform: scale(1.43) translateY(1.677rem);
+    transition: all .2s;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+.shape{
+    height: 30rem;
+    overflow: hidden;
+	width: 30rem;
+    float: left;
+    position: relative;
+    border-radius: 20px;
+    border: #CF6732 solid 2px;
+    /* background-color: transparent; */
+    /* background-color: #CF6732; */
+}
+.title{
+    /* color: #CF6732; */
+    color: black;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.designation{
+    /* font-family: Open Sans,sans-serif; */
+    text-transform: uppercase!important;
+    color: #CF6732;
+    text-align: center!important;
+    margin-top: 0.5rem!important;
+    font-size: 24px;
+    font-weight: 600;
+}
+.line{
+
+    content: '';
+    height: 3px;
+    width: 50%;
+    background-color: #CF6732;
+}
+.para-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.name{
+    /* font-family: Open Sans,sans-serif; */
+    text-transform: uppercase!important;
+    /* color: #fff; */
+    color: black;
+    text-align: center!important;
+    margin-top: 0.5rem!important;
+    font-size: 24px;
+    font-weight: 600
+}
+
+@media (min-width: 576px){
+    .designation{
+        margin-top: 17px!important;
+    }
+}
+@media (max-width: 576px){
+    .designation{
+        margin-top: 17px!important;
+    }
+}

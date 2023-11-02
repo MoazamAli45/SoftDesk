@@ -1,0 +1,102 @@
+/* Header.css */
+
+/* Container styles */
+.header-container {
+  width: 100%;
+  height: 90px;
+}
+
+/* Max width and centering */
+.header-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4px;
+  /* lg:px-[10px] */
+}
+
+/* Logo styles */
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: #your-brand-main-color;
+  font-weight: bold;
+}
+
+.logo-link {
+  width: 100px;
+  height: 70px;
+  position: relative;
+}
+
+/* Navigation links styles */
+.nav-links {
+  display: none; /* Initially hidden on smaller screens */
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+
+.nav-link {
+  font-size: 18px;
+  color: #f59837;
+  font-weight: normal;
+  font-family: "poppins", sans-serif;
+}
+
+/* CustomButton styles */
+.custom-button {
+  /* Your CustomButton styles here */
+}
+
+/* Hamburger and Drawer styles */
+.hamburger-icon {
+  color: #ffffff;
+}
+
+.drawer {
+  /* Your Drawer styles here */
+}
+
+/* Top bar styles */
+.top-bar {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* Section links styles */
+.section-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.section-link {
+  font-family: "poppins", sans-serif;
+  font-size: 34px;
+  color: #ffffff;
+}
+
+/* Social links styles */
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.social-link {
+  font-size: 50px;
+  color: #ffffff;
+}

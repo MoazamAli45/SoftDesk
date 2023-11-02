@@ -1,0 +1,232 @@
+
+.tab-content{
+    overflow: hidden;
+    height: 100%;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 991px){
+    .tab-content > .tab-pane{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .tab-content{
+        padding-bottom: 60px;
+    }
+}
+.tab-content > .tab-pane{
+    position: relative;
+    /* display: none; */
+    display: block;
+}
+
+.tab-pane{
+    transition: opacity .15s linear;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100%;
+    padding: 0!important;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.blue-shape{
+    background-color:#CF6732;
+    position: absolute;
+    height: 200%;
+    width: 100%;
+    transform: rotate(-15deg);
+    left: -83%;
+    top: -50%;
+    display: none;
+}
+
+@media (min-width: 992px){
+    .blue-shape{display: block!important;}
+}
+
+@media (min-width: 992px){
+.home-main{
+    width: 100%;
+    height: 100%;
+}
+}
+
+.home-main{
+align-items: center;
+--bs-gutter-x: 1.5rem;
+--bs-gutter-y: 0;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+
+justify-content: center;
+margin-top: calc(var(--bs-gutter-y)*-1);
+margin-right: calc(var(--bs-gutter-x)*-.5);
+margin-left: calc(var(--bs-gutter-x)*-.5);
+}
+
+.home-main>*{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+@media (max-width: 991px){
+    .home-main{
+        margin: 0 auto;
+        height: 100%;
+    }
+}
+.dp-img{
+    background-image: url('../../../public/Assets/advisor/airAli.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    /* height: calc(100vh - 100px); */
+    height: calc(100% - 100px);
+
+    z-index: 1;
+    border-radius: 30px;
+    left: 4rem;
+    top: 4rem;
+    position: absolute;
+    box-shadow: 0 0 7px rgb(0 0 0 / 90%); 
+    padding-left: 16px;
+    padding-right: 15px;
+    display: none;
+}
+.descp-div{
+    padding-left: 16px;
+    padding-right: 15px;
+    flex: 0 0 auto;
+    /* width: 100%; */
+    max-width: 100%;
+    text-align: center!important;
+}
+@media (min-width: 992px){
+    .dp-img{
+        display: block!important; 
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+    .descp-part{
+        text-align: left!important;
+    }
+    .main-heading{
+        text-align: left!important;
+    }
+    .descp-div{
+        text-align: left!important;
+        margin-left: 33.33333333%;
+        flex: 0 0 auto;
+    width: 66.66666667%;
+    }
+
+}
+
+.descp-part{
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: left!important;
+}
+.small-dp{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+@media (min-width: 576px){
+    .small-dp{
+        display: block!important;
+    }
+}
+
+@media (min-width: 992px){
+    .small-dp{
+        display: none!important;
+    }
+}
+@media (max-width: 991px){
+    .small-dp{
+        border-radius: 50%;
+        background-image: url('../../../public/Assets/advisor/airAli.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+
+    width: 270px;
+    height: 270px;
+    border: 4px solid #252525;
+    margin: 0 auto 25px;
+    display: block;
+    }
+    .descp-part{
+        text-align: center!important;
+    }
+}
+@media (min-width: 1600px){
+    .descp-part{
+       max-width: 600px;
+    
+    }
+   
+}
+@media (max-width: 1100px) and (min-width: 992px){
+    .descp-part{
+        max-width: 450px;
+    }
+}
+/* .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+} */
+.main-heading{
+    font-size: 4rem;
+    line-height: 60px;
+    font-weight: 700;
+    margin: 18px 0 10px;
+    color: #fff;
+    position: relative;
+    /* padding-left: 7rem; */
+    font-family: 'Poppins' ,sans-serif;
+    text-transform: uppercase;
+}
+.advisor{
+    color:#CF6732;
+    /* color: #F8983B; */
+}
+/* 
+span{color: #fff;} */
+
+.para{
+    margin: 1.5rem 0 2.8rem;
+    font-size: 2rem;
+    line-height: 30px;
+    /* font-family: Open sans,sans-serif; */
+    color: #fff;
+    /* text-align: justify; */
+}
+.head{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px ;
+}
+
+.name{
+    color: #CF6732;
+    font-size: 2.8rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+.info{
+    color: #fff;
+    font-size: 2.4rem;
+    line-height: 4rem;
+    font-weight: 400;
+}

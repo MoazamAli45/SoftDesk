@@ -1,0 +1,161 @@
+.About{
+  height:  100%;
+  margin-bottom: 4rem;
+}
+.orange-shape{
+    width: 100%;
+    height: 300px;
+    background-color: brown;
+    /* #ff5500 */
+} 
+.container{
+ 
+    
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 60vh;
+    flex-direction: column;
+}
+.content{
+  height: 100%;
+  width: 100%;
+  border-radius: 100% 0% 100% 0% / 18% 80% 20% 82%   ;
+  background-color: #e76b2dde;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+.soft{
+    color: #CF6732;
+    /* margin-left: .5rem; */
+}
+
+.About_heading{
+    font-size: 6rem;
+    color: beige;
+    font-family: 'Comic Neue' ,  serif;
+    font-weight: 700;
+}
+
+.quote{
+    color: #fff;
+    text-align: center;
+    font-size: 2.8rem;
+    font-family: 'Comic Neue' , serif;
+    font-weight: 400;
+}
+.main-para{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 6rem;
+    
+}
+
+@media (max-width:600px){
+  
+  .main-para {margin: 2rem;}
+}
+.para{
+    color: #fff;
+    font-size: 2.2rem;
+    line-height: 1.7;
+    margin: 4rem 2rem;
+
+}
+.para span{
+  color: #CF6732;
+}
+.who{
+    font-size: 5rem;
+    color: #fff;
+    text-transform: uppercase;
+   
+    
+
+}
+.para-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+    margin-top: 60px;
+}
+.line{
+
+    content: '';
+    height: 3px;
+    width: 50%;
+    background-color: #CF6732;
+}
+.swiper {
+    width: 100%;
+    height: 80%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 1.8rem;
+    background: #fff;
+  height: 300px;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slide-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .swiper-slide {
+    width: 25%;
+    /* width: 33.33%; */
+  }
+
+
+  @media (max-width:496px){
+
+    .About_heading{
+      font-size: 4.5rem;
+    }
+    .quote{
+      font-size: 2.4rem;
+    }
+  }
+
+  /* @media (max-width:750px){
+    .About_heading{
+        font-size: 40px;
+    }
+    .quote{
+        font-size: 20px;
+    }
+    .main-para{
+        margin: 20px;
+    }
+    .para{
+        margin: 20px;
+        font-size: 20px;
+    }
+    .who{
+        font-size: 40px;}
+        .para-head{
+            margin-bottom: 60px;}
+} */
+  /* .swiper-slide:nth-child(2n) {
+    width: 60%;
+  }
+  
+  .swiper-slide:nth-child(3n) {
+    width: 40%;
+  } */
+  

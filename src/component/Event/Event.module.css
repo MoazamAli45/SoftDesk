@@ -1,0 +1,104 @@
+.playerDiv {
+    width:100%;
+    position: relative;
+  }
+  .cabinet-img{
+    /* height: 80%; */
+    width: auto;
+    }
+    .mySwiper{
+  
+    }
+    .content{
+      height: 100%;
+      width: 100%;
+      border-radius: 100% 0% 100% 0% / 18% 80% 20% 82%   ;
+      background-color: #e76b2dde;
+      padding-top: 10rem;
+      padding-bottom: 10rem;
+      
+    }
+    .swiper {
+      width: 100%;
+      height: 80%;
+    }
+    
+    .swiper-slide {
+      text-align: center;
+      font-size: 1.8rem;
+      background: #fff;
+    height: 30rem;
+      /* Center slide text vertically */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .slide-img {
+      display: block;
+     width: 100%;
+      height: 100%; 
+      object-fit: cover;
+    }
+    
+    .swiper-slide {
+      width: 25% !important;
+      height: auto !important;
+      /* width: 33.33%; */
+
+    }
+    .who{
+      font-size: 5rem;
+      color: #fff;
+      text-align: center;
+      text-transform: uppercase;
+  }
+  .para-head{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    
+      /* margin-top: 60px; */
+  }
+  .line{
+  
+      content: '';
+      height: 3px;
+      width: 10%;
+      background-color: #CF6732;
+
+  }
+  .event{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+  }
+
+  .event-name h3{
+    margin-left: 4rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 3rem;
+    
+  }
+  .para{
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    line-height: 1.7;
+    margin: 5.5rem;
+
+}
+@media (max-width: 650px){
+  .para{
+    margin: 4rem 3rem;
+    text-align: center;
+  }
+  .event-name h3{
+    margin-left: 3rem;
+  }
+}
