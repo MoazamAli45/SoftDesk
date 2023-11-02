@@ -18,7 +18,6 @@ export const Data = {
       name: "Events",
       path: "/Events",
     },
-   
   ],
   PreviousEvents: [
     {
@@ -409,57 +408,56 @@ export const Data = {
       ],
     },
 
-    {
-      id: "8",
-      eventName: "7. TechSalvo 16' & TechSalvo 19'",
-      description: `TechSalvo is the biggest event organized by the Softdesk Society at UET Taxila, and it is held multiple times. The event is a grand showcase of technical and creative skills, featuring a wide range of competitions and activities that attract students from all departments.
-          The event features a Code Fest competition, where participants are given coding problems to solve, and their solutions are evaluated based on the speed and accuracy of their coding. There is also a Web Development competition, where participants are required to develop and design a website within a given time limit.
-          Other competitions include Poster Designing, Hackathon, Logo Designing, Project Exhibition, FIFA Video Game, Call of Duty, Archery, Painting, Escape Room, Minute to Win, Poetry Wall, Jumanji, Pictionary, Face Painting, Ludo, Tic Tac Toe, and Futsal. There is a collective prize money of more than 1 lac for all the competitions combined.
-          The event attracts a large number of participants and spectators, who come to witness the creativity and technical skills of the students. The event provides an excellent platform for students to showcase their talent, learn from industry experts, and gain valuable experience in their fields of interest.
-          The Softdesk Society plans and organizes the event with great care and attention to detail, ensuring that all competitions and activities run smoothly and efficiently. The winners of the competitions are awarded certificates of achievement and prizes, while all participants receive certificates of participation.
-          Overall, TechSalvo is an exciting and highly anticipated event at UET Taxila, and it plays a significant role in promoting technical and creative skills among the student community.
-          
-          
-          `,
-      img: [
-        {
-          id: "1",
-          no: require("../public/Assets/Events/TechSalvo/Gallery/Img1.jpg"),
-        },
-        {
-          id: "2",
-          no: require("../public/Assets/Events/TechSalvo/Gallery/Img2.jpg"),
-        },
-        {
-          id: "3",
-          no: require("../public/Assets/Events/TechSalvo/Gallery/Img3.jpg"),
-        },
-        {
-          id: "4",
-          no: require("../public/Assets/Events/TechSalvo/Gallery/Img4.jpg"),
-        },
-        {
-          id: "5",
-          no: require("../public/Assets/Events/TechSalvo/Gallery/Img5.jpg"),
-        },
-        {
-          id: "6",
-          no: require("../public/Assets/Events/TechSalvo/Gallery/Img6.jpg"),
-        },
-        {
-          id: "7",
-          no: require("../public/Assets/Events/TechSalvo/Gallery/Img7.jpg"),
-        },
-        {
-          id: "8",
-          no: require("../public/Assets/Events/TechSalvo/Gallery/Img8.jpg"),
-        },
-        {
-          id: "9",
-          no: require("../public/Assets/Events/TechSalvo/Gallery/Img9.jpg"),
-        },
-      ],
-    },
+    // {
+    //   id: "8",
+    //   eventName: "7. TechSalvo 16' & TechSalvo 19'",
+    //   description: `TechSalvo is the biggest event organized by the Softdesk Society at UET Taxila, and it is held multiple times. The event is a grand showcase of technical and creative skills, featuring a wide range of competitions and activities that attract students from all departments.
+    //       The event features a Code Fest competition, where participants are given coding problems to solve, and their solutions are evaluated based on the speed and accuracy of their coding. There is also a Web Development competition, where participants are required to develop and design a website within a given time limit.
+    //       Other competitions include Poster Designing, Hackathon, Logo Designing, Project Exhibition, FIFA Video Game, Call of Duty, Archery, Painting, Escape Room, Minute to Win, Poetry Wall, Jumanji, Pictionary, Face Painting, Ludo, Tic Tac Toe, and Futsal. There is a collective prize money of more than 1 lac for all the competitions combined.
+    //       The event attracts a large number of participants and spectators, who come to witness the creativity and technical skills of the students. The event provides an excellent platform for students to showcase their talent, learn from industry experts, and gain valuable experience in their fields of interest.
+    //       The Softdesk Society plans and organizes the event with great care and attention to detail, ensuring that all competitions and activities run smoothly and efficiently. The winners of the competitions are awarded certificates of achievement and prizes, while all participants receive certificates of participation.
+    //       Overall, TechSalvo is an exciting and highly anticipated event at UET Taxila, and it plays a significant role in promoting technical and creative skills among the student community.
+
+    //       `,
+    //   img: [
+    //     {
+    //       id: "1",
+    //       no: require("../public/Assets/Events/TechSalvo/Gallery/Img1.jpg"),
+    //     },
+    //     {
+    //       id: "2",
+    //       no: require("../public/Assets/Events/TechSalvo/Gallery/Img2.jpg"),
+    //     },
+    //     {
+    //       id: "3",
+    //       no: require("../public/Assets/Events/TechSalvo/Gallery/Img3.jpg"),
+    //     },
+    //     {
+    //       id: "4",
+    //       no: require("../public/Assets/Events/TechSalvo/Gallery/Img4.jpg"),
+    //     },
+    //     {
+    //       id: "5",
+    //       no: require("../public/Assets/Events/TechSalvo/Gallery/Img5.jpg"),
+    //     },
+    //     {
+    //       id: "6",
+    //       no: require("../public/Assets/Events/TechSalvo/Gallery/Img6.jpg"),
+    //     },
+    //     {
+    //       id: "7",
+    //       no: require("../public/Assets/Events/TechSalvo/Gallery/Img7.jpg"),
+    //     },
+    //     {
+    //       id: "8",
+    //       no: require("../public/Assets/Events/TechSalvo/Gallery/Img8.jpg"),
+    //     },
+    //     {
+    //       id: "9",
+    //       no: require("../public/Assets/Events/TechSalvo/Gallery/Img9.jpg"),
+    //     },
+    //   ],
+    // },
 
     // {
     //   id: "2",

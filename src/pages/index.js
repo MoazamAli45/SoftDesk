@@ -1,4 +1,3 @@
-import HeroSection from "@/component/HeroSection/HeroSection";
 import Advisor from "@/component/Advisor/Advisor";
 import Cabinet from "@/component/Cabinet/Cabinet";
 import Heads from "@/component/Heads/Heads";
