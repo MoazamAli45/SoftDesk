@@ -117,7 +117,9 @@
   }
   
   .swiper-slide {
-    width: 25%;
+    
+    width: 25% !important;
+    height: 30rem !important;
     /* width: 33.33%; */
   }
 

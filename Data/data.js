@@ -5,15 +5,15 @@ export const Data = {
       name: "Home",
       path: "/",
     },
-    // {
-    //   name: "Cabinet",
-    //   path: "cabinet",
-    // },
+    {
+      name: "Cabinet",
+      path: "#cabinet",
+    },
 
-    // {
-    //   name: "Heads",
-    //   path: "heads",
-    // },
+    {
+      name: "Heads",
+      path: "#heads",
+    },
     {
       name: "Events",
       path: "/Events",
