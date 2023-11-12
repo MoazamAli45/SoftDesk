@@ -25,7 +25,7 @@ export default function Heads() {
         },
         {id:'02',
         name:'Muhammad Mehdi',
-        designation:'Promotion',
+        designation:'Media & Promotion',
         image: mehdi
         },
         
