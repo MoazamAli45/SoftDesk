@@ -35,7 +35,7 @@ export default function Appbar() {
   return (
     <div className={Styles.Appbar}>
     <div className={Styles.Appbar_inside}>
-    <a className={Styles.link} href='/'>
+    <Link className={Styles.link} href='/'>
     <Image
               src="/Assets/logo.png"
               fill
@@ -43,7 +43,7 @@ export default function Appbar() {
               alt=""
             />
 
-    </a>
+    </Link>
 
     <div className={Styles.nav}>
     {Data.navibar.map((navi, index) => (
