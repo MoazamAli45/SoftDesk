@@ -3,15 +3,14 @@ import classes from "./Footer.module.css";
 import Image from "next/image";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import TwitterIcon from "@mui/icons-material/Twitter";
+
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import YouTubeIcon from "@mui/icons-material/YouTube";
-import PinterestIcon from "@mui/icons-material/Pinterest";
+
 import EmailIcon from "@mui/icons-material/Email";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import RssFeedIcon from "@mui/icons-material/RssFeed";
 import softdeskLogo from "./softdesk.png";
-import { Phone } from "@mui/icons-material";
+import { Phone, WhatsApp } from "@mui/icons-material";
 import PrintIcon from "@mui/icons-material/Print";
 export default function Footers() {
   return (
@@ -69,7 +68,7 @@ export default function Footers() {
                   }}
                 />
               </a>
-              <a href="https://www.instagram.com/softdesk.uettaxila/">
+              <a href="https://www.instagram.com/softdesk_uett/">
                 <InstagramIcon
                   className={classes["icon"]}
                   sx={{
@@ -89,7 +88,7 @@ export default function Footers() {
                   }}
                 />
               </a>
-              <a href="https://www.linkedin.com/company/softdeskuett/mycompany/">
+              <a href="https://www.linkedin.com/company/softdeskuett">
                 <LinkedInIcon
                   className={classes["icon"]}
                   sx={{
@@ -99,8 +98,8 @@ export default function Footers() {
                   }}
                 />
               </a>
-              <a href="#">
-                <YouTubeIcon
+              <a href="https://whatsapp.com/channel/0029VaDCcFD1t90VytImBU2e">
+                <WhatsApp
                   className={classes["icon"]}
                   sx={{
                     color: "#F8983B",

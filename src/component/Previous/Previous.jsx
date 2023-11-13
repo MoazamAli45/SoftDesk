@@ -86,7 +86,7 @@ export default function Previous() {
         mousewheel={true}
         keyboard={true}
         autoplay={{
-          delay: 800,
+          delay: 8000,
         }}
         loop={true}
         pagination={{

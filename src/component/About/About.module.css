@@ -117,8 +117,10 @@
   }
   
   .swiper-slide {
-    width: 25%;
-    /* width: 33.33%; */
+    
+    /* width: 25% !important; */
+    height: 30rem !important;
+    width: 33.33% !important;
   }
 
 
@@ -132,6 +134,16 @@
     }
   }
 
+  @media (max-width:600px){
+    .swiper-slide {
+      width: 50% !important;
+    }
+  }
+  @media (min-width:998px){
+    .swiper-slide {
+      width: 25% !important;
+    }
+  }
   /* @media (max-width:750px){
     .About_heading{
         font-size: 40px;
