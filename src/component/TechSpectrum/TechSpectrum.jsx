@@ -77,7 +77,7 @@ const TechSpectrum = () => {
             data from unauthorized access and malicious attacks. Professionals
             in this field use a variety of tools and strategies to identify and
             counteract potential threats, aiming to maintain the
-            confidentiality, integrity, and availability of information. It's a
+            confidentiality, integrity, and availability of information. Its a
             critical discipline in our technology-driven world, addressing a
             wide range of cyber threats and contributing to the overall security
             of digital infrastructures.
@@ -170,7 +170,7 @@ const TechSpectrum = () => {
             and UX designers is crucial for cohesive design. The process
             involves user research, wireframing, and iterative testing.
             Well-executed UI/UX design enhances user satisfaction and
-            contributes to a product's success.
+            contributes to a products success.
           </p>
 
           <div className={styles.tutorContent}>
