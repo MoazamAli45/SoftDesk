@@ -18,6 +18,10 @@ export const Data = {
       name: "Events",
       path: "/Events",
     },
+    {
+      name: "Tech Spectrum",
+      path: "/Tech",
+    },
   ],
   PreviousEvents: [
     {
